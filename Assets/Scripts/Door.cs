@@ -12,7 +12,7 @@ public class Door : MonoBehaviour, IActivatable
     InventoryObject key;
 
     private Animator animator;
-    private bool isLocked, isOpen;
+    public bool isLocked, isOpen;
     private List<InventoryObject> playerInventory;
 
     public string NameText

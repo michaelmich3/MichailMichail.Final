@@ -15,7 +15,7 @@ public class DisableWind : MonoBehaviour
 
 	private void Update ()
 	{
-		if (animator.GetBool ("isDoorOpensd") == true)
+		if (animator.GetBool ("isDoorOpen") == true)
 		{
 			targetObject.SetActive (false);
 		}
